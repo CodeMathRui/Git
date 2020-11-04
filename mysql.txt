@@ -1,0 +1,12 @@
+https://blog.csdn.net/wwd0501/article/details/71171614?utm_source=app
+
+ ./bin/mysqld (mysqld 5.6.50) 
+
+  ./bin/mysqladmin -u root password 'new-password' #修改root用户密码
+  ./bin/mysqladmin -u root -h iZwz9adzdewrn6dtyjvdpyZ password 'new-password'
+
+
+
+本地登入
+	mysql -h主机ip -u用户 -p密码
+	mysql -h127.0.0.1 -uroot -proot
